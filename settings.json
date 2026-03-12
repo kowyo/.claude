@@ -20,6 +20,7 @@
       "Bash(awk *)",
       "Bash(sed *)",
       "Bash(mv *)",
+      "Bash(chmod +x *)",
       "Bash(hf *)",
       "Bash(uv *)",
       "Bash(pnpm *)",
