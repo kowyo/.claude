@@ -18,6 +18,8 @@
       "Bash(sort *)",
       "Bash(uniq *)",
       "Bash(awk *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
       "Bash(git diff *)",
       "Bash(git log *)",
       "Bash(git show *)",
