@@ -19,6 +19,7 @@
       "Bash(uniq *)",
       "Bash(awk *)",
       "Bash(sed *)",
+      "Bash(mv *)",
       "Bash(uv *)",
       "Bash(pnpm *)",
       "Bash(git add *)",
