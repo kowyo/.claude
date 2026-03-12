@@ -19,6 +19,7 @@
       "Bash(uniq *)",
       "Bash(awk *)",
       "Bash(sed *)",
+      "Bash(mkdir *)",
       "Bash(mv *)",
       "Bash(chmod +x *)",
       "Bash(hf *)",
