@@ -1,0 +1,13 @@
+# Ignore everything by default
+/*
+
+# Whitelist specific files and folders
+!.gitignore
+!CLAUDE.md
+!settings.local.json
+!memory/
+!memory/**
+!plugins/
+!plugins/**
+!skills/
+!skills/**

@@ -1,0 +1,1 @@
+- [feedback_use_uv_run.md](feedback_use_uv_run.md) - Always use `uv run python` instead of bare `python` to run scripts
