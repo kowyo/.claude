@@ -4,6 +4,7 @@
 # Whitelist specific files and folders
 !.gitignore
 !CLAUDE.md
+!settings.json
 !settings.local.json
 !memory/
 !memory/**
