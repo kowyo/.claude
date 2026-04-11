@@ -8,7 +8,5 @@
 !settings.local.json
 !memory/
 !memory/**
-!plugins/
-!plugins/**
 !skills/
 !skills/**
