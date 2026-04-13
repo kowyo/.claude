@@ -39,6 +39,10 @@
   "enabledPlugins": {},
   "effortLevel": "high",
   "autoMemoryEnabled": false,
+  "statusLine": {
+    "type": "command",
+    "command": "sh ~/.claude/statusline-command.sh"
+  },
   "env": {
     "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",
     "DISABLE_TELEMETRY": "1",
