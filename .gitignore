@@ -10,3 +10,4 @@
 !memory/**
 !skills/
 !skills/**
+!statusline-command.sh
