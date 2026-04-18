@@ -41,7 +41,7 @@
   "autoMemoryEnabled": false,
   "statusLine": {
     "type": "command",
-    "command": "sh ~/.claude/statusline-command.sh"
+    "command": "sh $HOME/.claude/statusline-command.sh"
   },
   "env": {
     "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",
