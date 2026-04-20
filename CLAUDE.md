@@ -1,17 +1,5 @@
 # Development Guidelines
 
-## Python
-
-Use `uv` for all Python package management and script execution.
-
-- Install packages: `uv add <package>`
-- Run scripts: `uv run <script>`
-- Run tools: `uvx <tool>`
-
-## Front-end
-
-Use `pnpm` for all Node.js package management.
-
-## PR Format
-
-When creating PRs, do not use `## Summary`, `## Test plan` sections, or the `🤖 Generated with [Claude Code](https://claude.com/claude-code)` footer. Keep the PR body plain and concise.
+- Use `uv` for Python package management and script execution.
+- Use `pnpm` for Node.js package management.
+- PRs: no `## Summary`/`## Test plan` sections, no Claude Code footer. Keep body plain and concise.
