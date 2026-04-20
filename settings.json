@@ -33,6 +33,7 @@
       "Bash(git push *)",
       "Bash(git status *)",
       "Bash(git -C *)",
+      "Bash(make *)",
       "mcp__chrome-devtools__*"
     ],
     "deny": [
