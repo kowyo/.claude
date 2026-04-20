@@ -33,6 +33,7 @@
       "Bash(git push *)",
       "Bash(git status *)",
       "Bash(git -C *)",
+      "Bash(git remote *)",
       "Bash(make *)",
       "mcp__chrome-devtools__*"
     ],
