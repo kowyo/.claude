@@ -32,6 +32,7 @@
       "Bash(git show *)",
       "Bash(git push *)",
       "Bash(git status *)",
+      "Bash(git -C *)",
       "mcp__chrome-devtools__*"
     ],
     "deny": [
