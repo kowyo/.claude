@@ -34,7 +34,15 @@
       "Bash(git status *)",
       "mcp__chrome-devtools__*"
     ],
-    "deny": []
+    "deny": [
+      "Read(.env*)",
+      "Edit(.env*)",
+      "Bash(cat *.env*)",
+      "Bash(head *.env*)",
+      "Bash(tail *.env*)",
+      "Bash(less *.env*)",
+      "Bash(more *.env*)"
+    ]
   },
   "enabledPlugins": {},
   "effortLevel": "high",
