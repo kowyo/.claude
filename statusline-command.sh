@@ -8,6 +8,7 @@ ctx_size=$(echo "$input" | jq -r '.context_window.context_window_size // empty')
 
 # Five-hour rate limit
 five_pct=$(echo "$input" | jq -r '.rate_limits.five_hour.used_percentage // empty')
+five_resets=$(echo "$input" | jq -r '.rate_limits.five_hour.resets_at // empty')
 
 # Seven-day rate limit
 seven_pct=$(echo "$input" | jq -r '.rate_limits.seven_day.used_percentage // empty')
@@ -37,14 +38,29 @@ if [ -n "$ctx_used" ]; then
   fi
 fi
 
-# Five-hour rate limit bar
+# Five-hour rate limit bar with reset countdown
 if [ -n "$five_pct" ]; then
-  bar=$(make_bar "$five_pct")
   five_int=$(printf "%.0f" "$five_pct")
+  five_reset_str=""
+  if [ -n "$five_resets" ]; then
+    now=$(date +%s)
+    diff=$((five_resets - now))
+    if [ $diff -gt 0 ]; then
+      diff_hours=$(( diff / 3600 ))
+      diff_min=$(( (diff % 3600) / 60 ))
+      if [ $diff_hours -ge 1 ]; then
+        five_reset_str="(in ${diff_hours}h${diff_min}m)"
+      else
+        five_reset_str="(in ${diff_min}m)"
+      fi
+    else
+      five_reset_str="(resetting)"
+    fi
+  fi
   if [ -n "$parts" ]; then
-    parts="${parts} | 5h:[${bar}]${five_int}%"
+    parts="${parts} | 5h:${five_int}%${five_reset_str}"
   else
-    parts="5h:[${bar}]${five_int}%"
+    parts="5h:${five_int}%${five_reset_str}"
   fi
 fi
 
