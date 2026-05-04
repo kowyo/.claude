@@ -32,7 +32,8 @@ if [ -n "$ctx_used" ]; then
   ctx_int=$(printf "%.0f" "$ctx_used")
   if [ -n "$ctx_size" ]; then
     ctx_k=$(awk "BEGIN { printf \"%d\", ($ctx_size / 1000) + 0.5 }")
-    parts="ctx:${ctx_int}% / ${ctx_k}k"
+    ctx_used_k=$(awk "BEGIN { printf \"%d\", ($ctx_used / 100 * $ctx_size / 1000) + 0.5 }")
+    parts="ctx:${ctx_used_k}k/${ctx_k}k (${ctx_int}%)"
   else
     parts="ctx:${ctx_int}%"
   fi
