@@ -66,5 +66,6 @@
   "effortLevel": "high",
   "autoMemoryEnabled": false,
   "theme": "auto",
+  "showThinkingSummaries": true,
   "model": "sonnet"
 }
