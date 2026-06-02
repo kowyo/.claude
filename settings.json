@@ -65,7 +65,7 @@
   "enabledPlugins": {},
   "effortLevel": "high",
   "autoMemoryEnabled": false,
-  "theme": "auto",
   "showThinkingSummaries": true,
-  "model": "sonnet"
+  "theme": "auto",
+  "disableDeepLinkRegistration": "disable"
 }
