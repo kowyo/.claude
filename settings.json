@@ -46,7 +46,14 @@
       "Bash(git -C *)",
       "Bash(git remote *)",
       "Bash(make *)",
-      "mcp__chrome-devtools__*"
+      "mcp__chrome-devtools__*",
+      "WebSearch",
+      "Bash(gh *)",
+      "Bash(node *)",
+      "Bash(python3 *)",
+      "Bash(ps *)",
+      "Bash(kill *)",
+      "Bash(crontab *)"
     ],
     "deny": [
       "Read(.env*)",
@@ -67,5 +74,6 @@
   "autoMemoryEnabled": false,
   "showThinkingSummaries": true,
   "theme": "auto",
-  "disableDeepLinkRegistration": "disable"
+  "disableDeepLinkRegistration": "disable",
+  "model": "sonnet"
 }
