@@ -5,8 +5,6 @@
     "DISABLE_ERROR_REPORTING": "1",
     "DISABLE_FEEDBACK_COMMAND": "1",
     "CLAUDE_CODE_DISABLE_FEEDBACK_SURVEY": "1",
-    "CLAUDE_CODE_DISABLE_1M_CONTEXT": "1",
-    "CLAUDE_CODE_DISABLE_ADAPTIVE_THINKING": "1",
     "CLAUDE_CODE_DISABLE_AUTO_MEMORY": "1",
     "CLAUDE_CODE_IDE_SKIP_AUTO_INSTALL": "1"
   },
@@ -53,7 +51,8 @@
       "Bash(python3 *)",
       "Bash(ps *)",
       "Bash(kill *)",
-      "Bash(crontab *)"
+      "Bash(crontab *)",
+      "Bash(agent-browser *)"
     ],
     "deny": [
       "Read(.env*)",
@@ -74,6 +73,5 @@
   "autoMemoryEnabled": false,
   "showThinkingSummaries": true,
   "theme": "auto",
-  "disableDeepLinkRegistration": "disable",
-  "model": "sonnet"
+  "disableDeepLinkRegistration": "disable"
 }
