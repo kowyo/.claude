@@ -53,17 +53,9 @@
       "Bash(kill *)",
       "Bash(crontab *)",
       "Bash(agent-browser *)"
-    ],
-    "deny": [
-      "Read(.env*)",
-      "Edit(.env*)",
-      "Bash(cat *.env*)",
-      "Bash(head *.env*)",
-      "Bash(tail *.env*)",
-      "Bash(less *.env*)",
-      "Bash(more *.env*)"
     ]
   },
+  "model": "claude-fable-5",
   "statusLine": {
     "type": "command",
     "command": "sh $HOME/.claude/statusline-command.sh"
@@ -73,5 +65,6 @@
   "autoMemoryEnabled": false,
   "showThinkingSummaries": true,
   "theme": "auto",
-  "disableDeepLinkRegistration": "disable"
+  "disableDeepLinkRegistration": "disable",
+  "skipWorkflowUsageWarning": true
 }
