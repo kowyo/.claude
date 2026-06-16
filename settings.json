@@ -10,6 +10,7 @@
     "CLAUDE_CODE_ENABLE_AUTO_MODE": "1"
   },
   "permissions": {
+    "defaultMode": "auto",
     "allow": [
       "Read(**)",
       "Edit(**)",
