@@ -54,7 +54,8 @@
       "Bash(crontab *)",
       "Bash(agent-browser *)",
       "Bash(openspec *)",
-      "Bash(npx *)"
+      "Bash(npx *)",
+      "Bash(perl *)"
     ]
   },
   "statusLine": {
