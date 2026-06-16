@@ -52,10 +52,10 @@
       "Bash(ps *)",
       "Bash(kill *)",
       "Bash(crontab *)",
-      "Bash(agent-browser *)"
+      "Bash(agent-browser *)",
+      "Bash(openspec *)"
     ]
   },
-  "model": "claude-fable-5",
   "statusLine": {
     "type": "command",
     "command": "sh $HOME/.claude/statusline-command.sh"
@@ -64,7 +64,7 @@
   "effortLevel": "high",
   "autoMemoryEnabled": false,
   "showThinkingSummaries": true,
+  "skipWorkflowUsageWarning": true,
   "theme": "auto",
-  "disableDeepLinkRegistration": "disable",
-  "skipWorkflowUsageWarning": true
+  "disableDeepLinkRegistration": "disable"
 }
