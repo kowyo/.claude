@@ -5,6 +5,7 @@
 !.gitignore
 !CLAUDE.md
 !settings.json
+!mcp.json
 !memory/
 !memory/**
 !skills/
