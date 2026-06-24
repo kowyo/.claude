@@ -1,1 +1,4 @@
-/Users/zifeng/.codex/AGENTS.md
+- Always use `pnpm` when installing dependencies.
+- Always use `uv run` instead of `python` to run python scripts.
+- Do not add code comments unless the user explicitly asks for them. Write self-explanatory code instead.
+- Use Conventional Commits for git commit subjects.
