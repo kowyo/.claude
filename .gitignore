@@ -11,3 +11,5 @@
 !skills/
 !skills/**
 !statusline-command.sh
+!commands
+!commands/**
