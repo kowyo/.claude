@@ -15,7 +15,6 @@
     "allow": [
       "Read(**)",
       "Edit(**)",
-      "Glob(**)",
       "LS(**)",
       "Grep(**)",
       "Bash(ls *)",
@@ -62,6 +61,7 @@
     ],
     "defaultMode": "auto"
   },
+  "model": "sonnet",
   "statusLine": {
     "type": "command",
     "command": "sh $HOME/.claude/statusline-command.sh"
@@ -91,6 +91,5 @@
   "showThinkingSummaries": true,
   "skipWorkflowUsageWarning": false,
   "theme": "auto",
-  "disableDeepLinkRegistration": "disable",
-  "model": "sonnet"
+  "disableDeepLinkRegistration": "disable"
 }
