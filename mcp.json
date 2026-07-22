@@ -7,5 +7,14 @@
         "--autoConnect"
       ]
     }
-  }
+  },
+  "disabledMcpServers": [
+    "claude.ai ChEMBL",
+    "claude.ai Clinical Trials",
+    "claude.ai Gmail",
+    "claude.ai Open Targets",
+    "claude.ai PubMed",
+    "claude.ai Scite",
+    "claude.ai bioRxiv"
+  ]
 }
