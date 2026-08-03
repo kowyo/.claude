@@ -70,5 +70,6 @@
   "showThinkingSummaries": true,
   "skipWorkflowUsageWarning": false,
   "theme": "auto",
-  "disableDeepLinkRegistration": "disable"
+  "disableDeepLinkRegistration": "disable",
+  "skipDangerousModePermissionPrompt": true
 }
