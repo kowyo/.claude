@@ -1,6 +1,5 @@
 {
   "env": {
-    "CC_LANGFUSE_DEBUG": "true",
     "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",
     "DISABLE_TELEMETRY": "1",
     "DISABLE_ERROR_REPORTING": "1",
@@ -66,27 +65,7 @@
     "type": "command",
     "command": "sh $HOME/.claude/statusline-command.sh"
   },
-  "enabledPlugins": {
-    "langfuse-observability@langfuse-observability": true
-  },
-  "extraKnownMarketplaces": {
-    "langfuse-observability": {
-      "source": {
-        "source": "github",
-        "repo": "langfuse/Claude-Observability-Plugin"
-      }
-    }
-  },
   "effortLevel": "high",
-  "pluginConfigs": {
-    "langfuse-observability@langfuse-observability": {
-      "options": {
-        "LANGFUSE_PUBLIC_KEY": "pk-lf-fcfb207e-0ee9-46a4-b19a-e1d6d60c218f",
-        "LANGFUSE_BASE_URL": "https://cloud.langfuse.com",
-        "CC_LANGFUSE_CAPTURE_SKILL_CONTENT": "true"
-      }
-    }
-  },
   "autoMemoryEnabled": false,
   "showThinkingSummaries": true,
   "skipWorkflowUsageWarning": false,
