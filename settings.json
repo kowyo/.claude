@@ -71,5 +71,6 @@
   "skipDangerousModePermissionPrompt": true,
   "skipWorkflowUsageWarning": false,
   "theme": "auto",
-  "disableDeepLinkRegistration": "disable"
+  "disableDeepLinkRegistration": "disable",
+  "cleanupPeriodDays": 365
 }
