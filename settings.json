@@ -60,7 +60,7 @@
     ],
     "defaultMode": "auto"
   },
-  "model": "fable",
+  "model": "opus[1m]",
   "statusLine": {
     "type": "command",
     "command": "sh $HOME/.claude/statusline-command.sh"
@@ -68,8 +68,8 @@
   "effortLevel": "high",
   "autoMemoryEnabled": false,
   "showThinkingSummaries": true,
+  "skipDangerousModePermissionPrompt": true,
   "skipWorkflowUsageWarning": false,
   "theme": "auto",
-  "disableDeepLinkRegistration": "disable",
-  "skipDangerousModePermissionPrompt": true
+  "disableDeepLinkRegistration": "disable"
 }
