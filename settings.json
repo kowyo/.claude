@@ -61,6 +61,9 @@
     "defaultMode": "auto"
   },
   "model": "opus[1m]",
+  "attribution": {
+    "pr": ""
+  },
   "statusLine": {
     "type": "command",
     "command": "sh $HOME/.claude/statusline-command.sh"
