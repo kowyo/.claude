@@ -2,6 +2,7 @@
 - Always use `uv run` instead of `python` to run python scripts.
 - Avoid unnecessary comments: Code should be self-explanatory.
 - Create repository worktrees under a sibling `<repository>-worktrees` directory: `<parent>/<repository>-worktrees/<task>`.
+- When creating a worktree, copy the repository's `.env` file into it when one exists.
 
 ## Commit messages
 
