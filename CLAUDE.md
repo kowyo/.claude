@@ -12,7 +12,7 @@
 - Use Conventional Commits: `<type>(scope): description`.
 - Make one logical change per commit.
 - Explain the *why* in the body.
-- Add other useful trailers when appropriate (e.g. `Refs: #123`).
+- Add other useful trailers when appropriate (e.g. `Closes #123`).
 - End git commit messages with the `Assisted-by: Claude Code:${MODEL_VERSION}`
 
 ## Issues
