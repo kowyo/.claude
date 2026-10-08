@@ -26,6 +26,7 @@
 
 ## Pull requests
 
+- When squash-merging with `gh pr merge --squash`, pass `--subject` and `--body`; format the subject as `<pull request title> (#<pull request number>)` and use one concise paragraph describing the final change as the body.
 - Use Codex's response to the PR body as the only Codex review signal; never request a review with `@codex review`.
 - Interpret Codex's PR body reactions as review status: 👀 means at least one review is running, a comment means it has suggestions, and 👍 means all reviews finished with no findings.
 - Keep the pull request scope fixed to the originating request; review comments do not authorize scope expansion.
