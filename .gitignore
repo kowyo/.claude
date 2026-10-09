@@ -8,8 +8,8 @@
 !mcp.json
 !memory/
 !memory/**
-!skills/
-!skills/**
+!skills
 !statusline-command.sh
 !commands
 !commands/**
+!.gitmodules
