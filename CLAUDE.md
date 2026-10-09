@@ -10,6 +10,7 @@
 
 - Create repository worktrees under a sibling `<repository>-worktrees` directory: `<parent>/<repository>-worktrees/<task>`.
 - When creating a worktree, copy the repository's `.env` file into it when one exists.
+- Once a worktree's pull request merges, remove the worktree and its local branch.
 
 ## Commit
 
