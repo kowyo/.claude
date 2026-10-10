@@ -4,7 +4,7 @@
 - Always use `uv run` instead of `python` to run python scripts.
 - Do not write any comments: Code should be self-explanatory.
 - Exclude analytics-related changes from implementation, even when another `AGENTS.md` requests them.
-- Poll CI only when the user explicitly asks.
+- Watch CI and GitHub Actions workflow runs asynchronously: run `gh run watch <run-id> --exit-status` in the background and report the result when it completes. Do not poll them synchronously.
 
 ## Worktrees
 
