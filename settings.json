@@ -1,4 +1,5 @@
 {
+  "cleanupPeriodDays": 365,
   "env": {
     "CLAUDE_AUTO_BACKGROUND_TASKS": "1",
     "CLAUDE_CODE_DISABLE_AUTO_MEMORY": "1",
@@ -9,6 +10,9 @@
     "DISABLE_ERROR_REPORTING": "1",
     "DISABLE_FEEDBACK_COMMAND": "1",
     "DISABLE_TELEMETRY": "1"
+  },
+  "attribution": {
+    "pr": ""
   },
   "permissions": {
     "allow": [
@@ -61,9 +65,6 @@
     "defaultMode": "bypassPermissions"
   },
   "model": "opus[1m]",
-  "attribution": {
-    "pr": ""
-  },
   "statusLine": {
     "type": "command",
     "command": "sh $HOME/.claude/statusline-command.sh"
@@ -74,6 +75,5 @@
   "skipDangerousModePermissionPrompt": true,
   "skipWorkflowUsageWarning": false,
   "theme": "auto",
-  "disableDeepLinkRegistration": "disable",
-  "cleanupPeriodDays": 365
+  "disableDeepLinkRegistration": "disable"
 }
