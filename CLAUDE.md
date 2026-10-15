@@ -6,6 +6,10 @@
 - Exclude analytics-related changes from implementation, even when another `AGENTS.md` requests them.
 - Watch CI and GitHub Actions workflow runs asynchronously: run `gh run watch <run-id> --exit-status` in the background and report the result when it completes. Do not poll them synchronously.
 
+## Browser control
+
+- Before connecting `chrome-devtools` to Chrome, run `osascript ~/bin/chrome-auto-allow.applescript 30` in the background; it clicks `Allow` on Chrome's "Allow remote debugging?" prompt once, then exits.
+
 ## Worktrees
 
 - Create repository worktrees under a sibling `<repository>-worktrees` directory: `<parent>/<repository>-worktrees/<task>`.
