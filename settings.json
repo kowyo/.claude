@@ -69,11 +69,17 @@
     "type": "command",
     "command": "sh $HOME/.claude/statusline-command.sh"
   },
+  "extraKnownMarketplaces": {},
   "effortLevel": "high",
   "autoMemoryEnabled": false,
   "showThinkingSummaries": true,
   "skipDangerousModePermissionPrompt": true,
   "skipWorkflowUsageWarning": false,
   "theme": "auto",
-  "disableDeepLinkRegistration": "disable"
+  "disableDeepLinkRegistration": "disable",
+  "modelSettings": {
+    "claude-opus-5-5": {
+      "effortLevel": "high"
+    }
+  }
 }
