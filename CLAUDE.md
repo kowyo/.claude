@@ -1,10 +1,8 @@
 ## Preferences
-
 - Always use `pnpm` when installing dependencies.
 - Always use `uv run` instead of `python` to run python scripts.
 - Do not write any comments: Code should be self-explanatory.
-- Exclude analytics-related changes from implementation, even when another `AGENTS.md` requests them.
-- Watch CI and GitHub Actions workflow runs asynchronously: run `gh run watch <run-id> --exit-status` in the background and report the result when it completes. Do not poll them synchronously.
+- Watch CI and GitHub Actions workflow runs asynchronously: run `gh run watch <run-id> --exit-status` in the background and report the result when it completes.
 
 ## Browser control
 
@@ -27,7 +25,7 @@
 
 ## Issues
 
-- Do not include `Cause` `Criteria`, `Solution`, or `Scope` or any similar sections in issues.
+- Do not include `Cause` `Criteria`, `Solution`, or `Scope` or any similar sections when creating issues.
 
 ## Pull requests
 
