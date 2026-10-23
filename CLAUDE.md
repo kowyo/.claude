@@ -30,11 +30,7 @@
 ## Pull requests
 
 - When squash-merging with `gh pr merge --squash`, pass `--subject` and `--body`; format the subject as `<pull request title> (#<pull request number>)` and use one concise paragraph describing the final change as the body.
-- Use Codex's response to the PR body as the only Codex review signal; never request a review with `@codex review`.
-- Interpret Codex's PR body reactions as review status: 👀 means at least one review is running, a comment means it has suggestions, and 👍 means all reviews finished with no findings.
 - Keep the pull request scope fixed to the originating request; review comments do not authorize scope expansion.
 - Treat edge-case suggestions as actionable only when the scenario is reachable through supported behavior and has material impact, or involves security, data loss, or serious reliability risk.
 - Address every GitHub review comment using the `gh` CLI: reply to the comment, then resolve the conversation.
-- React to every Codex review comment with 👍 only when it is valid, useful, within the fixed scope, and meets the edge-case bar; otherwise react with 👎.
-- For every 👎, explain why the suggestion is invalid, unsupported, unreachable, out of scope, low-signal, or disproportionate to the added complexity before resolving the conversation.
 - When uploading logs to a PR body, format them as a collapsible `<details>` section with a descriptive `<summary>`.
