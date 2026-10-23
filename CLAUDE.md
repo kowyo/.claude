@@ -30,7 +30,4 @@
 ## Pull requests
 
 - When squash-merging with `gh pr merge --squash`, pass `--subject` and `--body`; format the subject as `<pull request title> (#<pull request number>)` and use one concise paragraph describing the final change as the body.
-- Keep the pull request scope fixed to the originating request; review comments do not authorize scope expansion.
-- Treat edge-case suggestions as actionable only when the scenario is reachable through supported behavior and has material impact, or involves security, data loss, or serious reliability risk.
-- Address every GitHub review comment using the `gh` CLI: reply to the comment, then resolve the conversation.
 - When uploading logs to a PR body, format them as a collapsible `<details>` section with a descriptive `<summary>`.
