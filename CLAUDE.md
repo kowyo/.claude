@@ -8,6 +8,15 @@
 
 - Before connecting `chrome-devtools` to Chrome, run `osascript ~/bin/chrome-auto-allow.applescript 30` in the background; it clicks `Allow` on Chrome's "Allow remote debugging?" prompt once, then exits.
 
+## Verifying frontend changes
+
+- Verify frontend changes in a real browser with `chrome-devtools` or `agent-browser` before claiming they work; passing type checks and tests is not enough.
+
+## Starting a dev server
+
+- Run dev servers in a tmux session, not a built-in background task.
+- Once the task's pull request merges, kill its tmux session.
+
 ## Worktrees
 
 - Create repository worktrees under a sibling `<repository>-worktrees` directory: `<parent>/<repository>-worktrees/<task>`.
