@@ -1,4 +1,5 @@
 ## Preferences
+- Reply in the language the user writes in.
 - Always use `pnpm` when installing dependencies.
 - Always use `uv run` instead of `python` to run python scripts.
 - Do not write any comments: Code should be self-explanatory.
