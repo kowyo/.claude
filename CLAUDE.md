@@ -39,5 +39,6 @@
 
 ## Pull requests
 
+- When opening a pull request, add a `Follow-up cleanup` section to its body listing the logic and branches that can be removed once the change is deployed, to be cleaned up in a follow-up pull request.
 - When squash-merging with `gh pr merge --squash`, pass `--subject` and `--body`; format the subject as `<pull request title> (#<pull request number>)` and use one concise paragraph describing the final change as the body.
 - When uploading logs to a PR body, format them as a collapsible `<details>` section with a descriptive `<summary>`.
