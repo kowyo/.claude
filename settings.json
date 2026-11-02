@@ -24,7 +24,7 @@
   "extraKnownMarketplaces": {},
   "modelSettings": {
     "claude-opus-5-5": {
-      "autoCompactWindow": "auto"
+      "autoCompactWindow": 400000
     }
   },
   "autoMemoryEnabled": false,
