@@ -8,7 +8,10 @@
 
 ## Browser control
 
-- Before connecting `chrome-devtools` to Chrome, run `osascript ~/bin/chrome-auto-allow.applescript 30` in the background; it clicks `Allow` on Chrome's "Allow remote debugging?" prompt once, then exits.
+- `chrome-auto-allow` clicks `Allow` on every Chrome "Allow remote debugging?" prompt it sees, and exits once 5s pass with no new one. Run `chrome-auto-allow --help` for options.
+- Before connecting `chrome-devtools` to Chrome, run `chrome-auto-allow` in the background.
+- When `chrome-devtools` is unavailable or fails to connect, use `agent-browser` with `--auto-connect` instead. Make the first connecting command of a session go through the wrapper: `chrome-auto-allow -- agent-browser --auto-connect <command>`.
+- Do not bring a browser page or window to the front (e.g. `select_page` with `bringToFront: true`, or `agent-browser`'s bring-to-front) unless the user asks: it steals focus from what the user is doing.
 
 ## Verifying frontend changes
 
