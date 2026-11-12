@@ -32,5 +32,6 @@
   "skipDangerousModePermissionPrompt": true,
   "skipWorkflowUsageWarning": false,
   "theme": "auto",
-  "disableDeepLinkRegistration": "disable"
+  "disableDeepLinkRegistration": "disable",
+  "language": "chinese"
 }
