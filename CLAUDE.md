@@ -3,6 +3,7 @@
 - Always use `pnpm` when installing dependencies.
 - Always use `uv run` instead of `python` to run python scripts.
 - Do not write any comments: Code should be self-explanatory.
+- Before the first `gh` command of a session, load the `gh` skill.
 - Watch CI and GitHub Actions workflow runs asynchronously: run `gh run watch <run-id> --exit-status` in the background and report the result when it completes.
 
 ## Browser control
