@@ -37,19 +37,127 @@
   "language": "chinese",
   "deniedMcpServers": [
     {
+      "serverName": "claude.ai AdisInsight"
+    },
+    {
+      "serverName": "claude.ai Ahrefs"
+    },
+    {
+      "serverName": "claude.ai Asana"
+    },
+    {
+      "serverName": "claude.ai Atlassian"
+    },
+    {
+      "serverName": "claude.ai BioRender"
+    },
+    {
+      "serverName": "claude.ai Boltz API"
+    },
+    {
+      "serverName": "claude.ai Box"
+    },
+    {
+      "serverName": "claude.ai Canva"
+    },
+    {
       "serverName": "claude.ai ChEMBL"
     },
     {
       "serverName": "claude.ai Clinical Trials"
     },
     {
+      "serverName": "claude.ai Cloudflare Developer Platform"
+    },
+    {
+      "serverName": "claude.ai Consensus"
+    },
+    {
+      "serverName": "claude.ai Cortellis Regulatory Intelligence"
+    },
+    {
+      "serverName": "claude.ai EDEN by Basecamp Research"
+    },
+    {
+      "serverName": "claude.ai Elicit"
+    },
+    {
+      "serverName": "claude.ai Helix GenoSphere"
+    },
+    {
       "serverName": "claude.ai Higgsfield AI"
+    },
+    {
+      "serverName": "claude.ai HubSpot"
+    },
+    {
+      "serverName": "claude.ai HyperFrames by HeyGen"
+    },
+    {
+      "serverName": "claude.ai Inductive Bio"
+    },
+    {
+      "serverName": "claude.ai Intercom"
+    },
+    {
+      "serverName": "claude.ai LatchBio"
+    },
+    {
+      "serverName": "claude.ai Medidata"
+    },
+    {
+      "serverName": "claude.ai Metabase"
+    },
+    {
+      "serverName": "claude.ai Open Targets"
+    },
+    {
+      "serverName": "claude.ai Owkin"
+    },
+    {
+      "serverName": "claude.ai PubMed"
+    },
+    {
+      "serverName": "claude.ai Renoise"
+    },
+    {
+      "serverName": "claude.ai Scholar Gateway"
+    },
+    {
+      "serverName": "claude.ai Scite"
+    },
+    {
+      "serverName": "claude.ai Slack"
+    },
+    {
+      "serverName": "claude.ai Stripe"
+    },
+    {
+      "serverName": "claude.ai Supabase"
+    },
+    {
+      "serverName": "claude.ai Synapse.org"
+    },
+    {
+      "serverName": "claude.ai Synthesize Bio"
+    },
+    {
+      "serverName": "claude.ai Youware Agent Inbox"
     },
     {
       "serverName": "claude.ai bioRxiv"
     },
     {
+      "serverName": "claude.ai cloudflare"
+    },
+    {
+      "serverName": "claude.ai github"
+    },
+    {
       "serverName": "claude.ai katana"
+    },
+    {
+      "serverName": "claude.ai monday.com"
     },
     {
       "serverName": "higgsfield"
