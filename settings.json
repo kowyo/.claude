@@ -34,5 +34,25 @@
   "skipWorkflowUsageWarning": false,
   "theme": "auto",
   "disableDeepLinkRegistration": "disable",
-  "language": "chinese"
+  "language": "chinese",
+  "deniedMcpServers": [
+    {
+      "serverName": "claude.ai ChEMBL"
+    },
+    {
+      "serverName": "claude.ai Clinical Trials"
+    },
+    {
+      "serverName": "claude.ai Higgsfield AI"
+    },
+    {
+      "serverName": "claude.ai bioRxiv"
+    },
+    {
+      "serverName": "claude.ai katana"
+    },
+    {
+      "serverName": "higgsfield"
+    }
+  ]
 }
