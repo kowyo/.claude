@@ -13,6 +13,12 @@
 - When `chrome-devtools` is unavailable or fails to connect, use `agent-browser` with `--auto-connect` instead. Make the first connecting command of a session go through the wrapper: `chrome-auto-allow -- agent-browser --auto-connect <command>`.
 - Do not bring a browser page or window to the front (e.g. `select_page` with `bringToFront: true`, or `agent-browser`'s bring-to-front) unless the user asks: it steals focus from what the user is doing.
 
+## Reading web pages
+
+- Search the web with `WebSearch`.
+- Read pages with the `firecrawl` MCP server (Firecrawl Local, `~/.cargo/bin/firecrawl-local`) rather than `WebFetch`, especially when `WebFetch` cannot open the domain, the page needs JavaScript to render, you need the original text to check details, or you need to crawl or map a whole site. It scrapes on this machine and returns the page's full markdown instead of a summary.
+- Outside a session with the MCP server, run it from Bash: `firecrawl-local scrape <url> --markdown`, `firecrawl-local crawl <url> --limit <n> --out <dir>`, `firecrawl-local map <url>`. Long pages can run to hundreds of thousands of characters: save them to a file and search it rather than reading the whole output.
+
 ## Verifying frontend changes
 
 - Verify frontend changes in a real browser with `chrome-devtools` or `agent-browser` before claiming they work; passing type checks and tests is not enough.
