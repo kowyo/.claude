@@ -15,9 +15,7 @@
 
 ## Reading web pages
 
-- Search the web with `WebSearch`.
-- Read pages with the `firecrawl` MCP server (Firecrawl Local, `~/.cargo/bin/firecrawl-local`) rather than `WebFetch`, especially when `WebFetch` cannot open the domain, the page needs JavaScript to render, you need the original text to check details, or you need to crawl or map a whole site. It scrapes on this machine and returns the page's full markdown instead of a summary.
-- Outside a session with the MCP server, run it from Bash: `firecrawl-local scrape <url> --markdown`, `firecrawl-local crawl <url> --limit <n> --out <dir>`, `firecrawl-local map <url>`. Long pages can run to hundreds of thousands of characters: save them to a file and search it rather than reading the whole output.
+- Search with `WebSearch`; read pages with the `firecrawl` MCP server (Firecrawl Local) rather than `WebFetch`. Without the MCP server, run `firecrawl-local scrape <url> --markdown` from Bash.
 
 ## Verifying frontend changes
 
