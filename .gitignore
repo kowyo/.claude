@@ -3,6 +3,7 @@
 
 # Whitelist specific files and folders
 !.gitignore
+!.gitattributes
 !CLAUDE.md
 !settings.json
 !mcp.json

@@ -23,6 +23,7 @@
     "command": "sh $HOME/.claude/statusline-command.sh"
   },
   "extraKnownMarketplaces": {},
+  "language": "chinese",
   "modelSettings": {
     "claude-opus-5-5": {
       "autoCompactWindow": 400000
@@ -34,7 +35,6 @@
   "skipWorkflowUsageWarning": false,
   "theme": "auto",
   "disableDeepLinkRegistration": "disable",
-  "language": "chinese",
   "deniedMcpServers": [
     {
       "serverName": "claude.ai AdisInsight"
