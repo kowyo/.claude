@@ -2,9 +2,12 @@
 - Reply in the language the user writes in.
 - Always use `pnpm` when installing dependencies.
 - Always use `uv run` instead of `python` to run python scripts.
-- Do not write any comments: Code should be self-explanatory.
 - Before the first `gh` command of a session, load the `gh` skill.
 - Watch CI and GitHub Actions workflow runs asynchronously: run `gh run watch <run-id> --exit-status` in the background and report the result when it completes.
+
+## Code comments
+
+- Write zero-comment code, docstrings and `TODO`s included, even where the repository uses comments: intent goes in names, the *why* in the commit body. Delete existing comments in code you touch. Keep only machine-read directives (`@ts-expect-error`, lint disables).
 
 ## Browser control
 
