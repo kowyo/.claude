@@ -18,23 +18,6 @@
     "defaultMode": "bypassPermissions"
   },
   "model": "opus",
-  "statusLine": {
-    "type": "command",
-    "command": "sh $HOME/.claude/statusline-command.sh"
-  },
-  "extraKnownMarketplaces": {},
-  "language": "chinese",
-  "modelSettings": {
-    "claude-opus-5-5": {
-      "autoCompactWindow": 400000
-    }
-  },
-  "autoMemoryEnabled": false,
-  "showThinkingSummaries": true,
-  "skipDangerousModePermissionPrompt": true,
-  "skipWorkflowUsageWarning": false,
-  "theme": "auto",
-  "disableDeepLinkRegistration": "disable",
   "deniedMcpServers": [
     {
       "serverName": "claude.ai AdisInsight"
@@ -162,5 +145,23 @@
     {
       "serverName": "higgsfield"
     }
-  ]
+  ],
+  "statusLine": {
+    "type": "command",
+    "command": "sh $HOME/.claude/statusline-command.sh"
+  },
+  "extraKnownMarketplaces": {},
+  "language": "chinese",
+  "modelSettings": {
+    "claude-opus-5-5": {
+      "autoCompactWindow": 400000,
+      "effortLevel": "high"
+    }
+  },
+  "autoMemoryEnabled": false,
+  "showThinkingSummaries": true,
+  "skipDangerousModePermissionPrompt": true,
+  "skipWorkflowUsageWarning": false,
+  "theme": "auto",
+  "disableDeepLinkRegistration": "disable"
 }
